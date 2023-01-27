@@ -1,0 +1,55 @@
+{
+    "server": {
+        "path" : "http://localhost:3000",
+        "garage": "/garage",
+        "engine": "/engine",
+        "winners": "/winners"
+    },
+
+    "phrases" : {
+        "start": ["Wroooom....", "RRRr-r-r-r...", "Wroom-wroom..."],
+        "goodCar": ["Eeehhhaaaa...", "Go-go-go...", "Yahooo...", "Uuueeee....", "Loooosers....", "Honk-honk..."],
+        "brokenCar": ["$%^#...", "Zz-z-zz-z....", "Clank-clank-clink...", "Trr-r-r...", "Dr-dr-dr...clink..."],
+        "reset": ["Screeeechsk...", "Let's ROCK..."],
+        "crash": ["CRACK !!!", "BANG !!!", "ZAP !!!", "Pshhh-h-h-h...", "Crunch !!!", "BONK !!!"]
+    },
+
+    "pageParams" : {
+        "garageCarsPage": 7,
+        "winnersCarsPage": 10
+    },
+
+    "cars": {
+        "brands" : [
+            "BMW",
+            "Ferrari",
+            "Ford",
+            "Toyota",
+            "Honda",
+            "Suzuki",
+            "Fiat",
+            "Lambo",
+            "Reno",
+            "ZaZ",
+            "Pontiac",
+            "Buick",
+            "Audi"
+        ],
+        "models" : [
+            "X7",
+            "Countach",
+            "Diablo",
+            "Hilux",
+            "Cruiser",
+            "Turbo",
+            "Diesel",
+            "Leaf",
+            "Racer",
+            "Nova",
+            "s300",
+            "4x4",
+            "Astra",
+            "GTO"
+        ]
+    }
+}
